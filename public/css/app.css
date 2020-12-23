@@ -16952,3 +16952,17 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+
+header .container-fluid, header .container-sm, header .container-md, header .container-lg, header .container-xl {
+  height: 50px;
+  position: relative;
+}
+
+header .container-fluid .boite, header .container-sm .boite, header .container-md .boite, header .container-lg .boite, header .container-xl .boite {
+  position: absolute;
+}
+
+header .container-fluid .carousel-inner .carousel-item img, header .container-sm .carousel-inner .carousel-item img, header .container-md .carousel-inner .carousel-item img, header .container-lg .carousel-inner .carousel-item img, header .container-xl .carousel-inner .carousel-item img {
+  height: 100%;
+  width: 100%;
+}
