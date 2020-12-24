@@ -16966,3 +16966,73 @@ header .container-fluid .carousel-inner .carousel-item img, header .container-sm
   height: 100%;
   width: 100%;
 }
+
+section:nth-of-type(1) div:nth-of-type(1) h3 {
+  font-family: cour;
+}
+
+section:nth-of-type(1) div:nth-of-type(1) h3 span {
+  color: #C63346;
+  text-transform: uppercase;
+}
+
+section:nth-of-type(1) div:nth-of-type(2) h3 {
+  font-family: cour;
+}
+
+section:nth-of-type(1) div:nth-of-type(2) h3 span {
+  color: #C63346;
+  text-transform: uppercase;
+}
+
+section:nth-of-type(1) div:nth-of-type(3) .prix {
+  color: #C63346;
+}
+
+section:nth-of-type(2) div:nth-of-type(1) {
+  background-color: #0A0705;
+}
+
+section:nth-of-type(2) div:nth-of-type(1) h2 {
+  font-family: cour;
+  color: white;
+}
+
+section:nth-of-type(2) div:nth-of-type(1) h2 span {
+  color: #C63346;
+}
+
+section:nth-of-type(3) div:nth-of-type(1) h3 {
+  font-family: cour;
+  text-transform: capitalize;
+}
+
+section:nth-of-type(3) div:nth-of-type(1) h3 span {
+  color: #C63346;
+  text-transform: uppercase;
+}
+
+section:nth-of-type(3) div:nth-of-type(2) div:nth-of-type(1) {
+  background-image: url(./../../public/img/book_table_bg.jpg);
+  height: 60%;
+  width: 65%;
+  border-radius: 15px;
+}
+
+section:nth-of-type(3) div:nth-of-type(2) p span {
+  font-weight: bolder;
+}
+
+section:nth-of-type(3) div:nth-of-type(2) button {
+  background-color: #C63346;
+}
+
+section:nth-of-type(3) div:nth-of-type(3) h3 {
+  font-family: cour;
+  text-transform: capitalize;
+}
+
+section:nth-of-type(3) div:nth-of-type(3) h3 span {
+  color: #C63346;
+  text-transform: uppercase;
+}
