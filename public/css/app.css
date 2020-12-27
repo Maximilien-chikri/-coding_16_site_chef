@@ -16966,25 +16966,29 @@ header .container-fluid .carousel-inner .carousel-item img, header .container-sm
   width: 100%;
 }
 
-section:nth-of-type(1) div:nth-of-type(1) h3 {
+body {
+  background-image: url(./../../public/img/main_bg.jpg);
+}
+
+body section:nth-of-type(1) div:nth-of-type(1) h3 {
   font-family: cour;
 }
 
-section:nth-of-type(1) div:nth-of-type(1) h3 span {
+body section:nth-of-type(1) div:nth-of-type(1) h3 span {
   color: #C63346;
   text-transform: uppercase;
 }
 
-section:nth-of-type(1) div:nth-of-type(2) h3 {
+body section:nth-of-type(1) div:nth-of-type(2) h3 {
   font-family: cour;
 }
 
-section:nth-of-type(1) div:nth-of-type(2) h3 span {
+body section:nth-of-type(1) div:nth-of-type(2) h3 span {
   color: #C63346;
   text-transform: uppercase;
 }
 
-section:nth-of-type(1) div:nth-of-type(3) .prix {
+body section:nth-of-type(1) div:nth-of-type(3) .prix {
   color: #C63346;
 }
 
@@ -17061,4 +17065,16 @@ section:nth-of-type(4) div:nth-of-type(2) div {
 
 section:nth-of-type(4) div:nth-of-type(2) div span {
   color: #C63346;
+}
+
+section:nth-of-type(5) div:nth-of-type(1) h2 {
+  font-family: cour;
+}
+
+section:nth-of-type(5) div:nth-of-type(1) h2 span {
+  color: #C63346;
+}
+
+section:nth-of-type(5) div:nth-of-type(2) {
+  background-color: #C63346;
 }
