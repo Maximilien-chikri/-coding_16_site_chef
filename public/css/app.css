@@ -17080,8 +17080,19 @@ body {
   margin: 0;
 }
 
+body section:nth-of-type(1) div:nth-of-type(1) {
+  padding-top: 20px;
+}
+
 body section:nth-of-type(1) div:nth-of-type(1) h3 {
   font-family: cour;
+  font-size: 50px;
+}
+
+@media (max-width: 1199.98px) {
+  body section:nth-of-type(1) div:nth-of-type(1) h3 {
+    font-size: 30px;
+  }
 }
 
 body section:nth-of-type(1) div:nth-of-type(1) h3 span {
@@ -17098,8 +17109,49 @@ body section:nth-of-type(1) div:nth-of-type(2) h3 span {
   text-transform: uppercase;
 }
 
-body section:nth-of-type(1) div:nth-of-type(3) .prix {
-  color: #C63346;
+body section:nth-of-type(1) div:nth-of-type(3) .icone {
+  text-align: center;
+}
+
+body section:nth-of-type(1) div:nth-of-type(3) .icone a {
+  border: none;
+  border-bottom: 2px solid #bbbaba;
+  border-right: 2px solid #bbbaba;
+}
+
+@media (max-width: 767.98px) {
+  body section:nth-of-type(1) div:nth-of-type(3) .icone a {
+    font-size: 30px;
+    border: 2px solid #bbbaba;
+  }
+}
+
+@media (max-width: 991.98px) {
+  body section:nth-of-type(1) div:nth-of-type(3) .icone a {
+    border: 2px solid #bbbaba;
+  }
+}
+
+body section:nth-of-type(1) div:nth-of-type(3) .icone i {
+  color: grey;
+  opacity: 0.6;
+}
+
+body section:nth-of-type(1) div:nth-of-type(3) .icone i:hover {
+  color: #b32a3a;
+  opacity: 0.9;
+}
+
+body section:nth-of-type(1) div:nth-of-type(3) .icone span {
+  font-family: Cour;
+  font-size: 15px;
+  text-align: center;
+}
+
+@media (max-width: 767.98px) {
+  body section:nth-of-type(1) div:nth-of-type(3) .menu-text {
+    margin-bottom: 100px;
+  }
 }
 
 section:nth-of-type(2) div:nth-of-type(1) {

@@ -3,8 +3,12 @@ body
     margin: 0
     section:nth-of-type(1)
         div:nth-of-type(1)
+            padding-top: 20px
             h3
                 font-family: cour
+                font-size: 50px
+                @include media-breakpoint-down(lg)
+                    font-size: 30px
                 // "our" en rouge majuscule
                 span
                     color: $Red
@@ -17,7 +21,34 @@ body
                     color: $Red
                     text-transform: uppercase
         div:nth-of-type(3)
-            .prix
-                color: $Red
+            .icone
+                text-align: center
+                a
+                    border: none
+                    border-bottom: 2px solid #bbbaba
+                    border-right: 2px solid #bbbaba
+                    @include media-breakpoint-down(sm)
+                        font-size: 30px
+                        border: 2px solid #bbbaba
+                    @include media-breakpoint-down(md)
+                        border: 2px solid #bbbaba
+                i
+                    color: grey 
+                    opacity: 0.6
+                i:hover
+                    color: #b32a3a
+                    opacity: 0.9
+                span
+                    font-family: Cour
+                    @include  media-breakpoint-down(sm)
+                    font-size: 15px
+                    text-align: center
+            .menu-text
+                @include media-breakpoint-down(sm)
+                    margin-bottom: 100px
+
+
+            // .prix
+            //     color: $Red
 
 
