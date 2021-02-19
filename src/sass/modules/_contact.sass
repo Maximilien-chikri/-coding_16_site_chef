@@ -1,9 +1,28 @@
 section:nth-of-type(5)
     div:nth-of-type(1)
+        width: 40%
+        margin: auto
+        @include media-breakpoint-down(md)
+            width: 60%
         h2
             font-family: cour
+            font-size: 50px
             
             span
                 color: $Red
     div:nth-of-type(2)
-        background-color: $Red
+        background-color: $Red 
+        border-radius: 20px
+        i
+            font-size: 50px
+            padding-top: 15px
+            color: $White
+            @include media-breakpoint-down(sm)
+                font-size: 30px
+        p
+            color: $White
+            @include media-breakpoint-down(sm)
+                font-size: 10px
+        hr
+            background-color: $White
+            width: 90%               

@@ -1,0 +1,25 @@
+footer
+    background-image: url('../img/footer_background.jpg')
+    background-size: cover
+    .about-us
+        @include media-breakpoint-down(lg)
+            text-align: center
+        i
+            font-size: 30px
+        .instagram
+            @include media-breakpoint-down(lg)
+                text-align: center
+            img
+                width: 120px
+                height: 100px
+                @include media-breakpoint-only(md)
+                    width: 150px
+                    height: 150px
+        .popular-tags
+            @include media-breakpoint-down(lg)
+                text-align: center
+            button
+                @include media-breakpoint-only(sm)
+                    background-color: #000
+    .red
+        height: 10px
