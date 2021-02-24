@@ -17095,7 +17095,7 @@ body section:nth-of-type(1) div:nth-of-type(1) h3 {
   }
 }
 
-body section:nth-of-type(1) div:nth-of-type(1) h3 span {
+body section:nth-of-type(1) div:nth-of-type(1) span {
   color: #C63346;
   text-transform: uppercase;
 }
@@ -17148,23 +17148,38 @@ body section:nth-of-type(1) div:nth-of-type(3) .icone span {
   text-align: center;
 }
 
-@media (max-width: 767.98px) {
-  body section:nth-of-type(1) div:nth-of-type(3) .menu-text {
-    margin-bottom: 100px;
-  }
-}
-
 section:nth-of-type(2) div:nth-of-type(1) {
   background-color: #0A0705;
+  background-size: cover;
+  text-align: center;
 }
 
 section:nth-of-type(2) div:nth-of-type(1) h2 {
   font-family: cour;
   color: white;
+  padding-top: 40px;
+  font-size: 50px;
+}
+
+@media (max-width: 1199.98px) {
+  section:nth-of-type(2) div:nth-of-type(1) h2 {
+    font-size: 30px;
+  }
 }
 
 section:nth-of-type(2) div:nth-of-type(1) h2 span {
   color: #C63346;
+}
+
+section:nth-of-type(2) div:nth-of-type(1) img {
+  width: 200px;
+  width: 150px;
+}
+
+@media (max-width: 767.98px) {
+  section:nth-of-type(2) div:nth-of-type(1) img {
+    width: 120px;
+  }
 }
 
 section:nth-of-type(3) div:nth-of-type(1) h3 {
