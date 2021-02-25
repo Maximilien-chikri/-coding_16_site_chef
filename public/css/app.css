@@ -17152,6 +17152,8 @@ section:nth-of-type(2) div:nth-of-type(1) {
   background-color: #0A0705;
   background-size: cover;
   text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 section:nth-of-type(2) div:nth-of-type(1) h2 {
@@ -17233,6 +17235,12 @@ section:nth-of-type(4) div:nth-of-type(2) img {
   padding-bottom: 10px;
 }
 
+@media (max-width: 991.98px) {
+  section:nth-of-type(4) div:nth-of-type(2) img img {
+    display: none;
+  }
+}
+
 section:nth-of-type(4) div:nth-of-type(2) div {
   padding: 0;
   margin: 3px;
@@ -17243,8 +17251,15 @@ section:nth-of-type(4) div:nth-of-type(2) div span {
   color: #C63346;
 }
 
+@media screen and (max-width: 990px) {
+  section:nth-of-type(4) .cnt-client {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 section:nth-of-type(5) div:nth-of-type(1) {
-  width: 40%;
+  width: 100%;
   margin: auto;
 }
 
@@ -17342,4 +17357,11 @@ footer .about-us .instagram img {
 
 footer .red {
   height: 10px;
+}
+
+@media screen and (max-width: 990px) {
+  footer div:nth-of-type(1) {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }

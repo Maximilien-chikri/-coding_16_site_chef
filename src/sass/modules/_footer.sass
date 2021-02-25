@@ -1,6 +1,7 @@
 footer
     background-image: url('../img/footer_background.jpg')
     background-size: cover
+
     .about-us
         @include media-breakpoint-down(lg)
             text-align: center
@@ -23,3 +24,7 @@ footer
                     background-color: #000
     .red
         height: 10px
+@media screen and ( max-width: 990px )
+    footer
+        div:nth-of-type(1)
+            flex-wrap: wrap
